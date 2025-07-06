@@ -34,7 +34,7 @@ public class Main {
 
         for(int i=1;i<=N;i++){
             dp1[i] = dp2[ i - 1 ] + A[i];
-            dp2[i] = Math.max(dp[i-1], dp2[i-1]);
+            dp2[i] = Math.max(dp1[i-1], dp2[i-1]);
         }
 
         long Answer = Math.max(dp1[N], dp2[N]);
