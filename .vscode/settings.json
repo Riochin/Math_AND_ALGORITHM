@@ -4,7 +4,11 @@
     "iostream": "cpp",
     "ostream": "cpp"
   },
-  "java.project.sourcePaths": ["Chapter-3/3-7/3.7.6", "Chapter-3/3-7/3.7.7"],
+  "java.project.sourcePaths": [
+    "Chapter-3/3-7/3.7.7",
+    "Chapter-3/3-7/3.7.6",
+    "Chapter-3/3-7/節末問題/3.7.4"
+  ],
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "java.format.settings.profile": "GoogleStyle"
 }
